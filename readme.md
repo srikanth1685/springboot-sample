@@ -8,7 +8,7 @@ Tested with
 * Spring Boot 2.2.4.RELEASE
 * Maven
 
-For explanation, please visit this article - [Docker and Spring Boot](https://mkyong.com/docker/docker-spring-boot-examples/)
+For explanation, please visit this article - [Docker and Spring Boot](https://medium.com/@osomudeyazudonu/deploy-springboot-microservices-into-aks-cluster-using-helm-and-azure-build-and-release-pipelines-835df32f11e6)
 
 ## How to run this?
 ```bash
