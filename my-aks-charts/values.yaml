@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: myacrrepo1996.azurecr.io/srikanth1685/springboot-sample:47
+  repository: myacrrepo1996.azurecr.io/srikanth1685/springboot-sample
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
