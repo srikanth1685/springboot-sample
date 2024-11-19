@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+      - main
+jobs:
+  depends:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions@checkout@v4.2.2
+    - uses: Azure/login@v.2.2.0
+      with:
+        creds: ${{ secrets.Azure_CREDENTIALS }}
+    - uses: Azure/webapps-deploy@v2.2.12
+    
+      
